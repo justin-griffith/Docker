@@ -22,7 +22,7 @@ SSH Credentials:
 	(ssh root@localhost -p 8022 (Use password: password)
 
 You can connect to mysql using:
-	mysql -h 127.0.0.1 -P 9906 -u <userdefined indocker-compile> -p
+	mysql -h 127.0.0.1 -P 9906 -u <userdefined in docker-compose.yml> -p
 
 
 Put your web code in html directory on your local and it will also be located in the docker container at /var/www/html.
