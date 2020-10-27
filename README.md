@@ -28,5 +28,3 @@ You can connect to mysql using:
 Put your web code in html directory on your local and it will also be located in the docker container at /var/www/html.
 
 Put additional configuration or setup files within setup_files, they will live at /var/www/config in the webserver container
-
-
